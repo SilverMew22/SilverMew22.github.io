@@ -217,6 +217,7 @@ GameObject:
   - component: {fileID: 59312502}
   - component: {fileID: 59312506}
   - component: {fileID: 59312507}
+  - component: {fileID: 59312508}
   m_Layer: 0
   m_Name: orb4
   m_TagString: Orb
@@ -325,6 +326,19 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   moveSpeed: 200
+--- !u!114 &59312508
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 59312501}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011e9c32fa5ec426aa9b487a52b3fe98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &104044648
 GameObject:
   m_ObjectHideFlags: 0
@@ -1137,6 +1151,7 @@ GameObject:
   - component: {fileID: 495513781}
   - component: {fileID: 495513780}
   - component: {fileID: 495513779}
+  - component: {fileID: 495513784}
   m_Layer: 0
   m_Name: orb2
   m_TagString: Orb
@@ -1245,6 +1260,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 495513777}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &495513784
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 495513777}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011e9c32fa5ec426aa9b487a52b3fe98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &501562051
 GameObject:
   m_ObjectHideFlags: 0
@@ -3233,6 +3261,7 @@ GameObject:
   - component: {fileID: 1135200113}
   - component: {fileID: 1135200112}
   - component: {fileID: 1135200111}
+  - component: {fileID: 1135200116}
   m_Layer: 0
   m_Name: orb1
   m_TagString: Orb
@@ -3341,6 +3370,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1135200109}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1135200116
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1135200109}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011e9c32fa5ec426aa9b487a52b3fe98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &1164963781
 GameObject:
   m_ObjectHideFlags: 0
@@ -3952,6 +3994,7 @@ GameObject:
   - component: {fileID: 1513642834}
   - component: {fileID: 1513642833}
   - component: {fileID: 1513642832}
+  - component: {fileID: 1513642837}
   m_Layer: 0
   m_Name: orb3
   m_TagString: Orb
@@ -4060,6 +4103,19 @@ MeshFilter:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1513642830}
   m_Mesh: {fileID: 10207, guid: 0000000000000000e000000000000000, type: 0}
+--- !u!114 &1513642837
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1513642830}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 011e9c32fa5ec426aa9b487a52b3fe98, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveSpeed: 10
 --- !u!1 &1526318861
 GameObject:
   m_ObjectHideFlags: 0
@@ -5095,6 +5151,7 @@ GameObject:
   - component: {fileID: 1819169614}
   - component: {fileID: 1819169618}
   - component: {fileID: 1819169619}
+  - component: {fileID: 1819169620}
   m_Layer: 0
   m_Name: player
   m_TagString: Player
@@ -5285,6 +5342,21 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+--- !u!114 &1819169620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1819169613}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 70521f59e53934a2689e3176d87326a9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  destination: {fileID: 2142288454}
+  playerMessage: {fileID: 1656779458}
+  moveClip: {fileID: 8300000, guid: 60fada4f7ad7b4611a2df9fdbaa6a329, type: 3}
 --- !u!1 &1934324117
 GameObject:
   m_ObjectHideFlags: 0
