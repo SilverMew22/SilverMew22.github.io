@@ -45,10 +45,16 @@ Camera:
   m_ClearFlags: 1
   m_BackGroundColor: {r: 0.19215687, g: 0.3019608, b: 0.4745098, a: 0}
   m_projectionMatrixMode: 1
+<<<<<<< HEAD
   m_GateFitMode: 2
   m_FOVAxisMode: 0
   m_SensorSize: {x: 36, y: 24}
   m_LensShift: {x: 0, y: 0}
+=======
+  m_SensorSize: {x: 36, y: 24}
+  m_LensShift: {x: 0, y: 0}
+  m_GateFitMode: 2
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
   m_FocalLength: 50
   m_NormalizedViewPortRect:
     serializedVersion: 2
@@ -1108,6 +1114,12 @@ GameObject:
   - component: {fileID: 1824953312905831452}
   - component: {fileID: 1824953312915114986}
   - component: {fileID: 1824953310892541053}
+<<<<<<< HEAD
+=======
+  - component: {fileID: 1824953310892541051}
+  - component: {fileID: 1500758976434296881}
+  - component: {fileID: 1860480296482190933}
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
   m_Layer: 0
   m_Name: DEM
   m_TagString: Untagged
@@ -1122,8 +1134,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1824953312905738300}
+<<<<<<< HEAD
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 0}
+=======
+  m_LocalRotation: {x: 0, y: -0.9207774, z: 0, w: 0.3900885}
+  m_LocalPosition: {x: 1.99, y: -2.42, z: -5.25}
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1824953312905831434}
@@ -1131,7 +1148,11 @@ Transform:
   - {fileID: 1824953312163846660}
   m_Father: {fileID: 0}
   m_RootOrder: 0
+<<<<<<< HEAD
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+=======
+  m_LocalEulerAnglesHint: {x: 0, y: -134.08, z: 0}
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
 --- !u!95 &1824953312915114986
 Animator:
   serializedVersion: 3
@@ -1247,6 +1268,49 @@ AudioSource:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
+<<<<<<< HEAD
+=======
+--- !u!114 &1824953310892541051
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824953312905738300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dec12195edc72f8469b05887911530e1, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  moveClip: {fileID: 8300000, guid: 70ab5a3b6176eb7428868ee4dc10e613, type: 3}
+--- !u!114 &1500758976434296881
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824953312905738300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c0a2173ea21787d49ac794eb1d52e5b7, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  onGround: 0
+--- !u!114 &1860480296482190933
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1824953312905738300}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e666f2f17c93444b0878c4af8e17f3f2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  multiplier: 10
+  eatThresh: 3
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
 --- !u!1 &1824953312905738302
 GameObject:
   m_ObjectHideFlags: 0

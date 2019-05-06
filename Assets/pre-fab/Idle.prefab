@@ -231,7 +231,11 @@ GameObject:
   - component: {fileID: 527712309}
   - component: {fileID: 527712308}
   - component: {fileID: 527712310}
+<<<<<<< HEAD
   - component: {fileID: -2908056564447418012}
+=======
+  - component: {fileID: 527712311}
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
   m_Layer: 0
   m_Name: Idle
   m_TagString: Untagged
@@ -316,7 +320,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 1, y: 3.84, z: 1}
   m_Center: {x: 0, y: 2.79, z: 0}
+<<<<<<< HEAD
 --- !u!114 &-2908056564447418012
+=======
+--- !u!114 &527712311
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -328,8 +336,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: aaf55ad8a51a3494584e3cfd845a3ede, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+<<<<<<< HEAD
   boom_Amt: 0
   multiplier: 10
+=======
+  moveClip: {fileID: 0}
+  boom_Amt: 0
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
 --- !u!1 &545806543
 GameObject:
   m_ObjectHideFlags: 0
