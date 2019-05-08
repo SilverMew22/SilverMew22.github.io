@@ -184,17 +184,19 @@ MonoBehaviour:
     m_LineSpacing: 1
   m_Text: 'Press Numbers on Keyboard to cycle through scenes
 
-    1(Self Portrait),
+    1(Main Menu)
 
-    2(Simple Move game in a box),
+    2(Self Portrait),
 
-    3(Using Rays to move platforms)
+    3(Simple Move game in a box),
 
-    4 (Predator and Prey)
+    4(Using Rays to move platforms)
 
-    5( Dodge in a Maze)
+    5 (Predator and Prey)
 
-    6 (Final Game - Mushroom Dance)'
+    6( Dodge in a Maze)
+
+    7 (Final Game - Mushroom Dance)'
 --- !u!222 &1145901302
 CanvasRenderer:
   m_ObjectHideFlags: 0
