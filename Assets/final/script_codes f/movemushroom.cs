@@ -29,7 +29,9 @@ public class movemushroom : MonoBehaviour
         if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0)
             && Input.GetKey(KeyCode.W))
         {//walking
-            myAnim.SetInteger("state", 1);
+            if (hit.transform==transform) { myAnim.SetInteger("state", 1);
+                myRb.AddForce(new Vector3(0f, 0f, 1f) * multiplier);
+            }
             //myRb.AddForce(new Vector3(-1f, 0f, 0f) * multiplier);
         }
 
@@ -37,21 +39,28 @@ public class movemushroom : MonoBehaviour
         if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0)
            && Input.GetKey(KeyCode.A))        
             {//left
-                myAnim.SetInteger("state", 4);
+            if (hit.transform == transform) { myAnim.SetInteger("state", 4); 
+            
+            }
             }
 
 
-            if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0)
-            && Input.GetKey(KeyCode.S))            
-                {//back
-                    myAnim.SetInteger("state", 3);}
+        if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0)
+        && Input.GetKey(KeyCode.S))
+        {//back
+            if (hit.transform == transform) { myAnim.SetInteger("state", 3);
+            
+            }
+        }
 
 
 
                 if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0)
            && Input.GetKey(KeyCode.D))                
                     {//right
-                        myAnim.SetInteger("state", 2);
+            if (hit.transform == transform) { myAnim.SetInteger("state", 2); 
+            
+            }
                     }
                     Debug.Log("you hit something ..." + hit.transform.gameObject.name);
                 }

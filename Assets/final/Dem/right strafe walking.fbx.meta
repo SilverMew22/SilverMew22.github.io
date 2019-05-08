@@ -706,7 +706,7 @@ ModelImporter:
     - name: mixamorig:LeftToeBase
       parentName: mixamorig:LeftFoot
       position: {x: 8.8326085e-10, y: 0.35505417, z: -0.000000011791823}
-      rotation: {x: 0.2691841, y: 0.15687837, z: -0.044489987, w: 0.94918376}
+      rotation: {x: 0.2691841, y: 0.15687835, z: -0.044489987, w: 0.9491837}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftToe_End
       parentName: mixamorig:LeftToeBase
@@ -766,12 +766,12 @@ ModelImporter:
     - name: mixamorig:LeftForeArm
       parentName: mixamorig:LeftArm
       position: {x: 4.2217724e-10, y: 0.31576243, z: -1.5043426e-10}
-      rotation: {x: -0.00904027, y: -0.00020295366, z: 0.022443427, w: 0.9997073}
+      rotation: {x: -0.00904027, y: -0.00020295364, z: 0.022443427, w: 0.9997072}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHand
       parentName: mixamorig:LeftForeArm
       position: {x: -2.080112e-10, y: 0.4399833, z: 0.0000000019750643}
-      rotation: {x: -0.097051576, y: -0.68261355, z: 0.084700055, w: 0.7193369}
+      rotation: {x: -0.09705157, y: -0.6826136, z: 0.08470005, w: 0.719337}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandMiddle1
       parentName: mixamorig:LeftHand
@@ -796,7 +796,7 @@ ModelImporter:
     - name: mixamorig:LeftHandRing1
       parentName: mixamorig:LeftHand
       position: {x: -0.17580415, y: 0.30431396, z: 0.014977026}
-      rotation: {x: -0.031100238, y: -0.008839019, z: 0.27324066, w: 0.96140224}
+      rotation: {x: -0.031100238, y: -0.008839018, z: 0.27324066, w: 0.9614022}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandRing2
       parentName: mixamorig:LeftHandRing1
@@ -816,7 +816,7 @@ ModelImporter:
     - name: mixamorig:LeftHandIndex1
       parentName: mixamorig:LeftHand
       position: {x: 0.17254658, y: 0.44052532, z: 0.011833555}
-      rotation: {x: 0.0033321797, y: -0.00056942215, z: -0.16844285, w: 0.9857057}
+      rotation: {x: 0.0033321797, y: -0.0005694221, z: -0.16844285, w: 0.9857056}
       scale: {x: 1, y: 1, z: 1}
     - name: mixamorig:LeftHandIndex2
       parentName: mixamorig:LeftHandIndex1
