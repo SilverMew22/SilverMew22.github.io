@@ -5,16 +5,27 @@ using UnityEngine;
 public class movemushroom : MonoBehaviour
 {
     Animator myAnim;
+<<<<<<< HEAD
+    //public Rigidbody myRb;
+    public float boom_Amt;
+    //public GameObject[] mushMans;
+=======
     public Rigidbody myRb;
     public float boom_Amt;
     public GameObject[] mushMans;
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
     public float multiplier = 10f;
     // Start is called before the first frame update
     void Start()
     {
         myAnim = GetComponent<Animator>();
+<<<<<<< HEAD
+        //myRb = GetComponent<Rigidbody>();
+        //mushMans = GameObject.FindGameObjectsWithTag("mushMan");
+=======
         myRb = GetComponent<Rigidbody>();
         mushMans = GameObject.FindGameObjectsWithTag("mushMan");
+>>>>>>> ea513d04512c4d7f950495b78ad558e5d4d48ebe
     }
 
     // Update is called once per frame
