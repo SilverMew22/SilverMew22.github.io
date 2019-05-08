@@ -22,9 +22,9 @@ public class Mover : MonoBehaviour
         myAnim.SetInteger("state", 0);
 
         //walking
-        if (Input.GetKey(KeyCode.W) && !Input.GetMouseButton(0))
+        if (Input.GetKey(KeyCode.W))
         {
-            myAnim.SetInteger("state", 1);
+            myAnim.SetInteger("state", 10);
 
         }
         //jump
