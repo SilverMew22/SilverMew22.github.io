@@ -6,15 +6,13 @@ public class movemushroom : MonoBehaviour
 {
     Animator myAnim;
     public Rigidbody myRb;
-    public float boom_Amt;
-    public GameObject[] mushMans;
-    public float multiplier = 10f;
+    
     // Start is called before the first frame update
     void Start()
     {
         myAnim = GetComponent<Animator>();
         myRb = GetComponent<Rigidbody>();
-        mushMans = GameObject.FindGameObjectsWithTag("mushMan");
+       
     }
 
     // Update is called once per frame
@@ -29,10 +27,9 @@ public class movemushroom : MonoBehaviour
         if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0)
             && Input.GetKey(KeyCode.W))
         {//walking
-            if (hit.transform==transform) { myAnim.SetInteger("state", 10);
-                myRb.AddForce(new Vector3(0f, 0f, 1f) * multiplier);
+            if (hit.transform==transform) { myAnim.SetInteger("state", 10);               
             }
-            //myRb.AddForce(new Vector3(-1f, 0f, 0f) * multiplier);
+          
         }
 
 
@@ -62,7 +59,7 @@ public class movemushroom : MonoBehaviour
             
             }
                     }
-                    Debug.Log("you hit something ..." + hit.transform.gameObject.name);
+                    //Debug.Log("you hit something ..." + hit.transform.gameObject.name);
                 }
             }
         

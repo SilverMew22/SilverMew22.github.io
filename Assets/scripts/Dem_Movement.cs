@@ -9,6 +9,7 @@ public class Dem_Movement : MonoBehaviour
     public AudioClip moveClip;
     Vector3 playerPos;
     Vector3 startPos;
+
     // Start is called before the first frame update
     void Start()
     {

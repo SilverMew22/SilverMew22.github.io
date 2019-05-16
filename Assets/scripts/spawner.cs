@@ -16,7 +16,14 @@ public class spawner : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.T))
-        { Instantiate(clone, spawnLocation, Quaternion.identity); }
-    }
-}
+
+        Ray laser = Camera.main.ScreenPointToRay(Input.mousePosition);
+        RaycastHit hit = new RaycastHit();
+        Debug.DrawRay(laser.origin, laser.direction, Color.green);
+
+        if (Physics.Raycast(laser, out hit, 1000f) && Input.GetMouseButton(0) && (Input.GetKeyDown(KeyCode.M)))
+            {if (hit.transform == transform) { Instantiate(clone, spawnLocation, Quaternion.identity); }
+        }
+    } }
+
+
